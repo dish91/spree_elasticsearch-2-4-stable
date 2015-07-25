@@ -1,6 +1,6 @@
 module Spree
   Product.class_eval do
-    update_index('products') { self }
+    #update_index('products') { self }
 
     def facet_properties
       facet_props = {}
